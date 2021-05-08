@@ -1,0 +1,27 @@
+<section id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li *ngFor="let expObj of experience">
+            <section>
+                <ul>
+                    <li>
+                        <div class="label">Name:</div>
+                        <div class="content">{{expObj.name}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Title:</div>
+                        <div class="content">{{expObj.title}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Tenure:</div>
+                        <div class="content">{{expObj.startDate}} - {{expObj.endDate}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Url:</div>
+                        <div class="content">{{expObj.url}}</div>
+                    </li>
+                </ul>
+            </section>
+        </li>
+    </ul>
+</section>

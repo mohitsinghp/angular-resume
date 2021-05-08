@@ -1,0 +1,23 @@
+<section id="training">
+    <h2>Training</h2>
+    <ul>
+        <li *ngFor="let trainingsObj of trainings">
+            <section>
+                <ul>
+                    <li>
+                        <div class="label">Company:</div>
+                        <div class="content">{{trainingsObj.company}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Topic:</div>
+                        <div class="content">{{trainingsObj.topic}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Description:</div>
+                        <div class="content">{{trainingsObj.description}}</div>
+                    </li>
+                </ul>
+            </section>
+        </li>
+    </ul>
+</section>

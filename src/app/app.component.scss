@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:host ::ng-deep {
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #content {
+    margin: 0 auto;
+    width : 800px;
+  }
+
+  .first {
+    float: right;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .paraContent {
+    text-align: start;
+    padding-top: 10px;
+  }
+
+  section h1,
+  section h2 {
+    margin-bottom : 0px;
+    padding-bottom: 4px;
+    margin-right  : 10px;
+    margin-top    : 0.8em;
+    border-bottom : 1px solid #e3e3e3;
+  }
+
+  section .label {
+    font-weight  : bold;
+    width        : 150px;
+    text-align   : right;
+    padding-right: 0.5em;
+    display      : inline-block;
+  }
+
+  section .content {
+    vertical-align: top;
+    width         : 550px;
+    display       : inline-block;
+  }
+
+  section section {
+    margin-bottom: 2rem;
+  }
+
+  section ul {
+    width   : 800px;
+    overflow: hidden;
+  }
+
+  section .double li {
+    float: left;
+    width: 30%;
+  }
+
+  #contact {
+    font-size : 13px;
+    margin-top: 1em;
+  }
+
+  #contact a {
+    text-decoration: none;
+  }
+
+  #contact img {
+    width        : 15px;
+    height       : 15px;
+    padding-right: 1.5%;
+  }
+
+  #others div {
+    margin-left  : 100px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  a:link {
+    color: black;
+  }
+
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+  .hide {
+    display: none !important;
+  }
+}

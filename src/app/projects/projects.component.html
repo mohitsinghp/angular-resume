@@ -1,0 +1,23 @@
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+            <li *ngFor="let projectObj of projects">
+                <section>
+                    <ul>
+                        <li>
+                            <div class="label">Title:</div>
+                            <div class="content">{{projectObj.title}}</div>
+                        </li>
+                        <li>
+                            <div class="label">Technologies:</div>
+                            <div class="content">{{projectObj.technologies}}</div>
+                        </li>
+                        <li>
+                            <div class="label">Description:</div>
+                            <div class="content">{{projectObj.description}}</div>
+                        </li> 
+                    </ul>
+                </section>
+            </li>
+        </ul>
+        </section>

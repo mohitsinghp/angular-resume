@@ -1,0 +1,23 @@
+<section id="personalProject">
+    <h2>Personal Projects</h2>
+    <ul>
+            <li *ngFor="let personalProjectObj of personalProjects">
+                <section>
+                    <ul>
+                        <li>
+                            <div class="label">Name:</div>
+                            <div class="content">{{personalProjectObj.name}}</div>
+                        </li>
+                        <li>
+                            <div class="label">Url:</div>
+                            <div class="content"><a href="{{personalProjectObj.url}}" target="_blank">{{personalProjectObj.url}}</a></div>
+                        </li>
+                        <li>
+                            <div class="label">Description:</div>
+                            <div class="content">{{personalProjectObj.description}}</div>
+                        </li> 
+                    </ul>
+                </section>
+            </li>
+        </ul>
+        </section>

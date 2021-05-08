@@ -1,0 +1,27 @@
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li *ngFor="let eduObj of education">
+            <section>
+                <ul>
+                    <li>
+                        <div class="label">School:</div>
+                        <div class="content">{{eduObj.school}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Program:</div>
+                        <div class="content">{{eduObj.program}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Dates Attended:</div>
+                        <div class="content">{{eduObj.startDate}} - {{eduObj.endDate}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Achievements:</div>
+                        <div class="content">{{eduObj.achievements}}</div>
+                    </li>
+                </ul>
+            </section>
+        </li>
+    </ul>
+</section>

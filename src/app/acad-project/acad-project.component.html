@@ -1,0 +1,23 @@
+<section id="acadProject">
+    <h2>Academic Projects</h2>
+    <ul>
+        <li *ngFor="let projectObj of projects">
+            <section>
+                <ul>
+                    <li>
+                        <div class="label">Title:</div>
+                        <div class="content">{{projectObj.title}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Description:</div>
+                        <div class="content">{{projectObj.description}}</div>
+                    </li>
+                    <li *ngIf="projectObj.url">
+                        <div class="label">Url:</div>
+                        <div class="content"><a href="{{projectObj.url}}" target="_blank">{{projectObj.url}}</a></div>
+                    </li>
+                </ul>
+            </section>
+        </li>
+    </ul>
+</section>
