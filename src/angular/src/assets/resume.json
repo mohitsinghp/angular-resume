@@ -8,14 +8,14 @@
   "executiveSummary": "I am passionate about learning new things, and their applications. I enjoy understanding problems, finding solutions and simplifying the process.",
   "aboutMe": " Seeking an entry-level oppurtunity wtih an easteemed organisation where I can utilise my skills and enhance learning in the field of work. Capable of mastering new technologies",
   "github": "https://github.com/mohitsinghp/",
-  "linkedin": "https://www.linkedin.com/in/mohit-singh-parihar-5936b11b6/",
+  "linkedin": "https://www.linkedin.com/in/mohitsinghp/",
   "social": {
     "github": {
       "link": "https://github.com/mohitsparihar/",
       "name": "GitHub"
     },
     "linkedin": {
-      "link": "https://www.linkedin.com/in/mohit-singh-parihar-5936b11b6/",
+      "link": "https://www.linkedin.com/in/mohitsinghp/",
       "name": "LinkedIn"
     },
     "facebook": {
@@ -30,8 +30,9 @@
   "skills": [
     "JavaScript",
     "React",
-    "Angular",
-    "CSS3/SCSS",
+    "Angular2+",
+    "CSS3",
+    "LESS/SCSS",
     "HTML5",
     "GIT",
     "C++"
