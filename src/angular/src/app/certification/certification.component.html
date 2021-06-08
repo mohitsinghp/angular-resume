@@ -1,20 +1,20 @@
-<section id="personalProject">
-    <h2>Projects</h2>
+<section id="certificates">
+    <h2>Certificates</h2>
     <ul>
-            <li *ngFor="let personalProjectObj of personalProjects">
+            <li *ngFor="let certificationObj of certification">
                 <section>
                     <ul>
                         <li>
                             <div class="label">Name:</div>
-                            <div class="content">{{personalProjectObj.name}}</div>
+                            <div class="content">{{certificationObj.name}}</div>
                         </li>
                         <li>
                             <div class="label">Url:</div>
-                            <div class="content"><a href="{{personalProjectObj.url}}" target="_blank">{{personalProjectObj.url}}</a></div>
+                            <div class="content"><a href="{{certificationObj.url}}" target="_blank">{{certificationObj.url}}</a></div>
                         </li>
                         <li>
                             <div class="label">Description:</div>
-                            <div class="content">{{personalProjectObj.description}}</div>
+                            <div class="content">{{certificationObj.description}}</div>
                         </li> 
                     </ul>
                 </section>

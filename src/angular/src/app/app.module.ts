@@ -14,6 +14,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ObjectiveComponent } from './objective/objective.component';
 import { SummaryComponent } from './summary/summary.component';
+import { CertificationComponent } from './certification/certification.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SummaryComponent } from './summary/summary.component';
     ProjectsComponent,
     ExperienceComponent,
     ObjectiveComponent,
-    SummaryComponent
+    SummaryComponent,
+    CertificationComponent
   ],
   imports: [
     BrowserModule,

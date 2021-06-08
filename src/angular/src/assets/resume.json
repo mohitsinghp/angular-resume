@@ -105,15 +105,22 @@
   ],
   "personalProjects": [
     {
-      "name": "Resume",
-      "url": "https://mohitsparihar.github.io/resume/",
-      "description": "Resume built in Angular 2+/ React"
+      "name": "Express Todo API",
+      "url": "https://github.com/mohitsinghp/express-todo-api",
+      "description": "Todo api using Express and MongoDB"
     },
     {
-      "name": "Personal Portfolio",
-      "url": "https://mohitsparihar.github.io/",
-      "description": "Template style personal protfolio designed and built on Angular 2+"
+      "name": "Angular Todo App",
+      "url": "https://github.com/mohitsinghp/todo-app",
+      "description": "Todo app using Angular2+ and express-todo-api. "
     },
+    {
+      "name": "Express Angular Resume",
+      "url": "https://github.com/mohitsinghp/express-angular-resume",
+      "description": "Todo api using Express and MongoDB"
+    }
+  ],
+  "certification": [
     {
       "name": "freeCodeCamp Responsive Web Design Certification",
       "url": "https://www.freecodecamp.org/certification/mohitsparihar/responsive-web-design",
