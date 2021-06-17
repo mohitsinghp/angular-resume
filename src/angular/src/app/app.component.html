@@ -5,9 +5,9 @@
     <app-summary [resume]="resume"></app-summary>
     <app-skills [skills]="resume.skills"></app-skills>
     <!-- <app-experience [experience]="resume.experience"></app-experience> -->
-    <!-- <app-projects [projects]="resume.projects"></app-projects> -->
-    <app-personal-project [personalProjects]="resume.personalProjects"></app-personal-project>
-    <app-certification [certification]="resume.certification"></app-certification>
+    <app-projects [projects]="resume.projects"></app-projects>
+    <app-personal-project *ngIf="resume.personalProjects" [personalProjects]="resume.personalProjects"></app-personal-project>
+    <app-certification [certification]="resume.certificates"></app-certification>
     <app-education [education]="resume.education"></app-education>
   </section>
 </body>

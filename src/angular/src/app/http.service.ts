@@ -9,6 +9,6 @@ export class HttpService {
   constructor(private httpClient: HttpClient) { }
 
   getResume() {
-    return this.httpClient.get('./assets/resume.json');
+    return this.httpClient.get('./resume').toPromise();
   }
 }

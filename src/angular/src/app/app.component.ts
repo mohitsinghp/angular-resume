@@ -12,11 +12,14 @@ export class AppComponent implements OnInit {
 
     constructor(private httpService: HttpService) { }
 
-    ngOnInit(): void {
-        console.log("Oninit call");
-        this.httpService.getResume()
-            .subscribe(data => {
-                this.resume = data;
-            })
+    async ngOnInit(): Promise<void> {
+        try {
+            const data = await this.httpService.getResume();
+
+            this.resume = data;
+        }catch(error) {
+            console.log(error);
+        }
+
     }
 }

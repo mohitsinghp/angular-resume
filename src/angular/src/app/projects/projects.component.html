@@ -1,23 +1,31 @@
 <section id="projects">
     <h2>Projects</h2>
     <ul>
-            <li *ngFor="let projectObj of projects">
-                <section>
-                    <ul>
-                        <li>
-                            <div class="label">Title:</div>
-                            <div class="content">{{projectObj.title}}</div>
-                        </li>
-                        <li>
-                            <div class="label">Technologies:</div>
-                            <div class="content">{{projectObj.technologies}}</div>
-                        </li>
-                        <li>
-                            <div class="label">Description:</div>
-                            <div class="content">{{projectObj.description}}</div>
-                        </li> 
-                    </ul>
-                </section>
-            </li>
-        </ul>
-        </section>
+        <li *ngFor="let projectObj of projects">
+            <section>
+                <ul>
+                    <li *ngIf="projectObj.title">
+                        <div class="label">Title:</div>
+                        <div class="content">{{projectObj.title}}</div>
+                    </li>
+                    <li *ngIf="projectObj.technologies">
+                        <div class="label">Technologies:</div>
+                        <div class="content">{{projectObj.technologies}}</div>
+                    </li>
+                    <li>
+                        <div class="label">Name:</div>
+                        <div class="content">{{projectObj.name}}</div>
+                    </li>
+                    <li *ngIf=projectObj.url>
+                        <div class="label">Url:</div>
+                        <div class="content"><a href="{{projectObj.url}}" target="_blank">{{projectObj.url}}</a></div>
+                    </li>
+                    <li>
+                        <div class="label">Description:</div>
+                        <div class="content">{{projectObj.description}}</div>
+                    </li>
+                </ul>
+            </section>
+        </li>
+    </ul>
+</section>
